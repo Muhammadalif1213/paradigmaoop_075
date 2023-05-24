@@ -10,7 +10,9 @@ public:
 		nama(pNama) {
 		cout << "orang dibuat\n" << endl;
 	}
-	
+	~orang() {
+		cout << "orang dihapus\n" << endl;
+	}
 
 private:
 
