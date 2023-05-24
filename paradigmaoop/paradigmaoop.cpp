@@ -2,20 +2,24 @@
 #include <string>
 using namespace std;
 
-class MyClass
-{
+class orang{
 public:
-	MyClass();
-	~MyClass();
+	string nama;
+
+	orang(string pNama) :
+		nama(pNama) {
+		cout << "orang dibuat\n" << endl;
+	}
+	
 
 private:
 
 };
 
-MyClass::MyClass()
+orang{::orang{()
 {
 }
 
-MyClass::~MyClass()
+orang{::~orang{()
 {
 }
