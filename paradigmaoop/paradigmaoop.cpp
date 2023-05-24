@@ -15,18 +15,15 @@ public:
 	}
 
 	int jumlah(int a, int b) {
-		
+		return a + b;
 	}
-
-
-private:
-
 };
 
-orang{::orang{()
+
+orang::orang{()
 {
 }
 
-orang{::~orang{()
+orang::~orang{()
 {
 }
