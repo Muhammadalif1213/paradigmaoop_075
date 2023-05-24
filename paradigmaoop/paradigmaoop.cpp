@@ -17,13 +17,10 @@ public:
 	int jumlah(int a, int b) {
 		return a + b;
 	}
+
 };
 
+class pelajar :public orang {
 
-orang::orang{()
-{
-}
 
-orang::~orang{()
-{
-}
+};
