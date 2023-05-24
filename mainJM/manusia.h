@@ -9,10 +9,10 @@ public:
 
 	manusia(string pNama)
 		: nama(pNama) {
-		cout << name << "mati\n";
+		cout << nama << " mati\n";
 	}
 	~manusia() {
-		cout << nama << "mati\n";
+		cout << nama << " mati\n";
 	}
 };
 #endif // !MANUSIA_H
