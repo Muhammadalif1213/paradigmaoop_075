@@ -22,6 +22,12 @@ public:
 
 class pelajar :public orang {
 public:
-	
+	string sekolah;
+
+	pelajar(string pnama, string pSekolah) :
+		orang(pNama),
+		sekolah(pSekolah) {
+		cout << "pelajar dihapus\n" << endl;
+	}
 
 };
